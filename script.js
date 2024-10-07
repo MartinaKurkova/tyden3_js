@@ -100,7 +100,7 @@ const user1 = {
   */
   
 //knihovna
-const kniha1= {
+/*const kniha1 = {
     nazev: "Bible",
     autor: "neznámý",
     pocetStran: 890,
@@ -111,7 +111,7 @@ const kniha1= {
     ISBN: 9872642682,
 };
 
-const kniha2= {
+const kniha2 = {
     nazev: "Bylo nás pět",
     autor: "Karel Poláček",
     pocetStran: 250,
@@ -121,5 +121,15 @@ const kniha2= {
     },
     ISBN: 987252626,
 };
+*/
+
 
 //ockovani2
+const person = {
+    name: 'Květoslav Voňavý',
+    age: 67,
+}
+
+person.language = prompt ("jakým jazykem chcete komunikovat?");
+
+document.body.innerHTML += 
