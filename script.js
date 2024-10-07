@@ -5,7 +5,7 @@
 //document.body.innerHTML = "<p>" + jmeno + ", věk: " + vek + "</p>";
 
 //vyplata
-/const hodinovka = Number (prompt ("Zadejte svou hodinovou mzdu v Kč"));
+const hodinovka = Number (prompt ("Zadejte svou hodinovou mzdu v Kč"));
 const hodiny = 8;
 const dny = 21;
 const mzda = Number (hodinovka * hodiny * dny);
